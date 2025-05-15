@@ -3,11 +3,14 @@ Dictionary CLI written in Go
 
 This is a simple CLI dictionary tool written in Go that fetches word definitions from a free dictionary API. It processes a single word entered by the user and prints its definition, part of speech, and pronunciation.
 
-Below packages are used 
+**Below packages are used **
 
 net/http - for making API requests
+
 encoding/json - parsing unstructured json 
+
 os.Args - to work with CLI args passed by user
+
 io - to read response body
 
 **Prerequisites**
