@@ -20,8 +20,10 @@ io - to read response body
     go run dict.go args     
 Example 
     go run dict.go pen
-Output
+    
+**Output**
      go run dict.go pen
     pen (noun): An enclosure (enclosed area) used to contain domesticated animals, especially sheep or cattle.
     Pronunciation: /pɛn/
+    
 if the word doesn't exist it will return "No definitions found"
